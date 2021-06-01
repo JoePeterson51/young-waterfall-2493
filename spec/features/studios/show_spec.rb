@@ -13,6 +13,8 @@ RSpec.describe Studio, type: :feature do
 
       expect(page).to have_content("Universal")
       expect(page).to have_content("Hollywood")
+      expect(page).to have_content("The Goonies")
+      expect(page).to have_content("The Big Lebowski")
     end
   end
 end
